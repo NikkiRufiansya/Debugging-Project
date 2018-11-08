@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rincian Absen"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                   android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                <TextView
+
+                    android:id="@+id/uS2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Induk Siswa"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="2dp"
+                    />
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/cNISAbsen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Loading...."
+                    android:padding="2dp"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                <TextView
+
+                    android:id="@+id/uJ2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Semester"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:padding="2dp"
+                    />
+                <TextView
+
+                    android:id="@+id/cSemesterAbsen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loading ..."
+                    android:textSize="20dp"
+                    android:padding="2dp"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                <TextView
+
+                    android:id="@+id/uJ"
+                    android:text="Tanggal "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:id="@+id/cTanggalAbsen"
+                    android:text="loading ..."
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                <TextView
+
+                    android:id="@+id/uT"
+                    android:text="Bulan"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:id="@+id/cBulanAbsen"
+                    android:text="loading ..."
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                <TextView
+
+                    android:id="@+id/uH"
+                    android:text="Tahun"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:id="@+id/cTahunAbsen"
+                    android:text="loading...."
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                <TextView
+
+                    android:id="@+id/uuJamAbsen"
+                    android:text="Jam          "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+
+                    android:id="@+id/cJamAbsen"
+                    android:text="00:00"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                <TextView
+
+                    android:id="@+id/uuStatusAbsen"
+                    android:text="Status Kehadiran "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/cStatusAbsen"
+                    android:text="Masuk"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:id="@+id/cIdAbsen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="761dp"
+                    android:text="Loading......"
+                    android:visibility="gone"
+                    android:textSize="20dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:paddingBottom="30dp"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        android:background="@android:color/white">
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray"/>
+        <Button
+            android:textColor="#FFF"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/line1"
+            android:backgroundTint="#F37534"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/kembaliAbsen"
+            android:text="Kembali" />
+    </RelativeLayout>
+</RelativeLayout>

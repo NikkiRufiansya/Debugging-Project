@@ -21,11 +21,13 @@
             android:layout_width="match_parent">
 
             <TextView
+                android:layout_gravity="center"
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Rincian Absen"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Rincian Jadwal"
                 android:textSize="25dp"
                 android:gravity="center"
                 android:textStyle="bold" />
@@ -46,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content">
                     <TextView
-                        android:layout_gravity="center"
+
                         android:id="@+id/uS2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -57,7 +59,7 @@
                         />
                     <TextView
                         android:layout_gravity="center"
-                        android:id="@+id/cNISAbsen"
+                        android:id="@+id/cNISJadwal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20dp"
@@ -84,14 +86,14 @@
                         android:id="@+id/uJ2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Semester"
+                        android:text="Hari"
                         android:textStyle="bold"
                         android:textSize="20dp"
                         android:padding="2dp"
                         />
                     <TextView
                         android:layout_gravity="center"
-                        android:id="@+id/cSemesterAbsen"
+                        android:id="@+id/cHariJadwal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Loading ..."
@@ -115,14 +117,14 @@
                     <TextView
                         android:layout_gravity="center"
                         android:id="@+id/uJ"
-                        android:text="Tanggal "
+                        android:text="Nama Pelajaran "
                         android:textStyle="bold"
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
                         android:layout_gravity="center"
-                        android:id="@+id/cTanggalAbsen"
+                        android:id="@+id/cNamaPelajaranJadwal"
                         android:text="loading ..."
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
@@ -144,14 +146,14 @@
                     <TextView
                         android:layout_gravity="center"
                         android:id="@+id/uT"
-                        android:text="Bulan"
+                        android:text="Jam"
                         android:textStyle="bold"
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
                         android:layout_gravity="center"
-                        android:id="@+id/cBulanAbsen"
+                        android:id="@+id/cJamJadwal"
                         android:text="loading ..."
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
@@ -173,14 +175,14 @@
                     <TextView
                         android:layout_gravity="center"
                         android:id="@+id/uH"
-                        android:text="Tahun"
+                        android:text="Guru"
                         android:textStyle="bold"
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
                         android:layout_gravity="center"
-                        android:id="@+id/cTahunAbsen"
+                        android:id="@+id/cGuruJadwal"
                         android:text="loading...."
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
@@ -202,8 +204,8 @@
                     android:layout_width="wrap_content">
                     <TextView
                         android:layout_gravity="center"
-                        android:id="@+id/uuJamAbsen"
-                        android:text="Jam"
+                        android:id="@+id/uuSemesterJadwal"
+                        android:text="Semester"
                         android:textStyle="bold"
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
@@ -211,8 +213,8 @@
                     <TextView
 
                         android:layout_gravity="center"
-                        android:id="@+id/cJamAbsen"
-                        android:text="00:00"
+                        android:id="@+id/cSemesterJadwal"
+                        android:text="loading.."
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -233,24 +235,25 @@
                     android:layout_width="wrap_content">
                     <TextView
                         android:layout_gravity="center"
-                        android:id="@+id/uuStatusAbsen"
-                        android:text="Status Kehadiran "
+                        android:id="@+id/uuTahunJadwal"
+                        android:text="Tahun "
                         android:textStyle="bold"
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
+
                         android:layout_gravity="center"
-                        android:id="@+id/cStatusAbsen"
-                        android:text="Masuk"
+                        android:id="@+id/cTahunJadwal"
+                        android:text="loading"
                         android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
 
+
                     <TextView
-                        android:layout_gravity="center"
-                        android:id="@+id/cIdAbsen"
+                        android:id="@+id/cIdJadwal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
@@ -293,7 +296,7 @@
             android:backgroundTint="#F37534"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:id="@+id/kembaliAbsen"
+            android:id="@+id/kembaliJadwal"
             android:text="Kembali" />
     </RelativeLayout>
 </RelativeLayout>

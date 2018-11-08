@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-Button absen ,jadwal,nilai,belajar,berita,informasi;
+Button absen ,jadwal,nilai,belajar,berita,informasi, rincianAbsen ,rincianNilai;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +57,22 @@ Button absen ,jadwal,nilai,belajar,berita,informasi;
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Informasi.class);
+                startActivity(intent);
+            }
+        });
+        rincianAbsen = (Button) findViewById(R.id.rincianAbsen);
+        rincianAbsen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,RincianAbsen.class);
+                startActivity(intent);
+            }
+        });
+        rincianNilai = (Button) findViewById(R.id.rincianNilai);
+        rincianNilai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,RincianNilai.class);
                 startActivity(intent);
             }
         });

@@ -21,7 +21,9 @@
         <activity android:name=".Nilai" />
         <activity android:name=".Belajar" />
         <activity android:name=".Berita" />
-        <activity android:name=".Informasi"></activity>
+        <activity android:name=".Informasi" />
+        <activity android:name=".RincianAbsen" />
+        <activity android:name=".RincianNilai"></activity>
     </application>
 
 </manifest>
