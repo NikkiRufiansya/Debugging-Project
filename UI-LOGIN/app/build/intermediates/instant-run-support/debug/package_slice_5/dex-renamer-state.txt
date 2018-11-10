@@ -1,0 +1,4 @@
+#Sat Nov 10 00:37:38 WIB 2018
+base.0=/home/benerin/Downloads/Android-Login-Screen-master/app/build/intermediates/transforms/dexMerger/debug/24
+path.0=classes.dex
+renamed.0=classes.dex
