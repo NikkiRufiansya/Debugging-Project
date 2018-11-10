@@ -45,19 +45,30 @@
                     android:layout_margin="2dp"
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
-                     <TextView
-                    android:id="@+id/uS2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="SPP"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:layout_width="match_parent">
                     <TextView
+                        android:id="@+id/uS2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="SPP"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cSPPPembayaranNominal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="000.000"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
                         android:id="@+id/cSPPPembayaran"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:text="Loading......"
                         android:textSize="20dp" />
 
@@ -75,20 +86,31 @@
                     android:layout_margin="2dp"
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:layout_width="match_parent">
                     <TextView
                         android:id="@+id/uJ2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="LKS"
+                        android:text="SKS"
                         android:textSize="20dp"
                         android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/cLKSPembayaranNominal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="000.000"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+
                     <TextView
-                        android:id="@+id/cLKSPembayaran"
+                        android:layout_gravity="center"
+                        android:id="@+id/cSKSPembayaran"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Loading......"
+                        android:gravity="center"
                         android:textSize="20dp" />
 
                 </LinearLayout>
@@ -104,7 +126,7 @@
                     android:layout_margin="2dp"
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:layout_width="match_parent">
                     <TextView
                         android:id="@+id/uJ"
                         android:layout_width="wrap_content"
@@ -113,11 +135,26 @@
                         android:layout_gravity="center"
                         android:textSize="20dp"
                         android:textStyle="bold" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/cDLLPembayaranNominal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="000.000"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
                     <TextView
+                        android:layout_gravity="center"
                         android:id="@+id/cDLLPembayaran"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Loading......"
+                        android:gravity="center"
                         android:textSize="20dp" />
                 </LinearLayout>
             </LinearLayout>
@@ -132,7 +169,51 @@
                     android:layout_margin="2dp"
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:id="@+id/uJD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Denda"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/cDendaPembayaranNominal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="000.000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:id="@+id/cDendaPembayaran"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Loading......"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
                     <TextView
                         android:id="@+id/uT"
                         android:layout_width="wrap_content"
@@ -143,9 +224,11 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:layout_gravity="center"
                         android:id="@+id/cBulanPembayaran"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:text="Loading......"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -162,7 +245,7 @@
                     android:layout_margin="2dp"
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:layout_width="match_parent">
                     <TextView
                         android:id="@+id/uH"
                         android:layout_width="wrap_content"
@@ -172,10 +255,11 @@
                         android:textSize="20dp"
                         android:textStyle="bold" />
                     <TextView
+                        android:layout_gravity="center"
                         android:id="@+id/cTahunPembayaran"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
+                        android:gravity="center"
                         android:text="Loading......"
                         android:textSize="20dp" />
 
